@@ -129,13 +129,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Animals.Plugins.csproj">
-      <Project>{90F7ED5F-29CD-4048-3D60-49615A8B74E2}</Project>
-      <Name>Animals.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Animals.csproj">
       <Project>{CD850D31-54CF-29A6-E620-B7D67B4035DA}</Project>
       <Name>Animals</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animals.Plugins.csproj">
+      <Project>{90F7ED5F-29CD-4048-3D60-49615A8B74E2}</Project>
+      <Name>Animals.Plugins</Name>
     </ProjectReference>
     <ProjectReference Include="Animals.Editor.Plugins.csproj">
       <Project>{2AAF1E1D-CCF1-4767-2C03-F99C6516871C}</Project>
@@ -143,11 +143,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ZSmartTile\Editor\ZST_Editor.cs" />
+    <Compile Include="Assets\Models\Area730\UpdateManager\Editor\SimpleJSON.cs" />
+    <Compile Include="Assets\Models\Area730\UpdateManager\Editor\UpdatesWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
   </ItemGroup>
