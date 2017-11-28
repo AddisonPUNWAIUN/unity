@@ -90,6 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Materials\Bullet.cs" />
     <Compile Include="Assets\Scripts\CamFollow.cs" />
     <Compile Include="Assets\Scripts\GamePlay.cs" />
     <Compile Include="Assets\Scripts\Map Edit\MapEdit.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UI\CreateModel.cs" />
     <Compile Include="Assets\Scripts\UI\ScrollbarControl.cs" />
+    <Compile Include="Assets\waiun_pasture\script\Shoot.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
