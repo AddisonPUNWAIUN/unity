@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals.csproj", "{CD850D31-54CF-29A6-E620-B7D67B4035DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals.Editor", "Animals.Editor.csproj", "{4A4E1A8D-A114-B78F-1504-22E7DF621BD0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{CD850D31-54CF-29A6-E620-B7D67B4035DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD850D31-54CF-29A6-E620-B7D67B4035DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD850D31-54CF-29A6-E620-B7D67B4035DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A4E1A8D-A114-B78F-1504-22E7DF621BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A4E1A8D-A114-B78F-1504-22E7DF621BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A4E1A8D-A114-B78F-1504-22E7DF621BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A4E1A8D-A114-B78F-1504-22E7DF621BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
