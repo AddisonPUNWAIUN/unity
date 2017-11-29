@@ -15,7 +15,7 @@ public class Shoot : MonoBehaviour
     void Update()
     {
         time++;
-        if (time == 30)
+        if (time == 5)
         {
             shoot();
             time = 0;
@@ -25,6 +25,7 @@ public class Shoot : MonoBehaviour
     {
         GameObject cloneBullet = Instantiate(bullet) as GameObject;
         cloneBullet.transform.position = gun.transform.position;
+        cloneBullet.transform.rotation = gun.transform.rotation;
         Destroy(cloneBullet, 2);
     }
 }
