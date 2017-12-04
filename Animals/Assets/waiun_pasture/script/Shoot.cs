@@ -26,6 +26,6 @@ public class Shoot : MonoBehaviour
         GameObject cloneBullet = Instantiate(bullet) as GameObject;
         cloneBullet.transform.position = gun.transform.position;
         cloneBullet.transform.rotation = gun.transform.rotation;
-        Destroy(cloneBullet, 2);
+        Destroy(cloneBullet, 1);
     }
 }
